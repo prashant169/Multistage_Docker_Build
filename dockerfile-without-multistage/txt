@@ -1,0 +1,5 @@
+docker images | head - 5
+
+ps -a
+
+go run calulator.go
