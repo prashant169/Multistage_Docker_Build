@@ -5,7 +5,7 @@ The main purpose of choosing a golang based applciation to demostrate this examp
 
 So the real advantage of multi stage docker build and distro less images can be understand with a drastic decrease in the Image size.
 
-Why mulstaging is required ??
+# Why mulstaging is required ??
 Multi-stage builds are used in Docker images to optimize image size and composition. They offer benefits like:
 
 Smaller Images: By splitting the build process into stages, you include only the necessary files in each stage. This results in a final image that contains only the runtime components, reducing unnecessary bloat.
@@ -24,7 +24,7 @@ Reproducibility: Multi-stage builds help ensure consistency across different env
 
 In essence, multi-stage builds enhance Docker image development, making images smaller, more secure, efficient, and maintainable.
 
-What are distroless images ??
+# What are distroless images ??
 Distroless images are like super lightweight containers. Imagine a container is like a box for running apps. Regular containers come with a lot of extra stuff, like a mini computer inside. But distroless containers are super tiny. They only have exactly what your app needs to work, nothing extra.
 
 The main idea behind distroless is to keep bad guys away. By having only the essential things, it's harder for bad guys to break in. It's like having a secret door that only your app knows about.
